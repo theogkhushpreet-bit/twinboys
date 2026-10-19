@@ -1,0 +1,13 @@
+{
+  "name": "twin-boys-storefront",
+  "version": "0.2.0",
+  "private": true,
+  "description": "TWIN BOYS honey storefront starter with Vercel serverless API, Supabase and Razorpay integration points",
+  "engines": { "node": ">=20" },
+  "scripts": { "dev": "vercel dev", "deploy": "vercel --prod" },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "razorpay": "^2.9.6"
+  },
+  "devDependencies": { "vercel": "^48.1.0" }
+}
